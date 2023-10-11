@@ -9,10 +9,10 @@ from langchain.callbacks.base import BaseCallbackHandler
 import streamlit as st
 import tempfile
 import os
-import dotenv
+#import dotenv
 import openai
-dotenv_file = dotenv.find_dotenv()
-dotenv.load_dotenv(dotenv_file)
+#dotenv_file = dotenv.find_dotenv()
+#dotenv.load_dotenv(dotenv_file)
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
